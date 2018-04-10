@@ -8,6 +8,17 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Name="s" Background="Transparent" Width="1000">
+            <Button Background="LightBlue" Content="开始新冒险" FontSize="48" Margin="20 300 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <Button Background="LightBlue" Content="查看旅店" FontSize="48" Margin="20 20 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+            <Button Background="LightBlue" Content="出征设置" FontSize="48" Margin="20 20 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+        </StackPanel>
+        <StackPanel >
+            <Image Name="people" Source="Assets\people.jpg" Margin="620,300,0,20" HorizontalAlignment="Left" Height="384" Width="229"  ></Image>
+        </StackPanel>
+        <StackPanel>
+            <Image Name="weapon" Source="Assets\dun.jpg"  Margin="720 300 0 20" HorizontalAlignment="Center" Height="384" Width="229"  ></Image>
 
+        </StackPanel>
     </Grid>
 </Page>
