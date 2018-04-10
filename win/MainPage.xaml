@@ -18,7 +18,6 @@
         </StackPanel>
         <StackPanel>
             <Image Name="weapon" Source="Assets\dun.jpg"  Margin="720 300 0 20" HorizontalAlignment="Center" Height="384" Width="229"  ></Image>
-
         </StackPanel>
     </Grid>
 </Page>
